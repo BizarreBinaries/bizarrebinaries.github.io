@@ -4,7 +4,7 @@
     "url": "/posts/dfirpipeline/",
     "categories": "DFIR",
     "tags": "DFIR, Velociraptor, TimeSketch",
-    "date": "2023-07-30 00:00:00 +1000",
+    "date": "2023-12-03 00:00:00 +1000",
     "content": "EThis post dives into automating end to end artifact collection and processing using Velociraptor and Timesketch all deployed using CloudFormation in AWS."
   },
   {
