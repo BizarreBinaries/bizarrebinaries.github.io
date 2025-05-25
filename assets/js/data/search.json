@@ -2,24 +2,24 @@
   {
     "title": "DFIR - Automating End to End Acquisition and Processing",
     "url": "/posts/dfirpipeline/",
-    "categories": "",
-    "tags": "",
+    "categories": "DFIR",
+    "tags": "DFIR, Velociraptor, TimeSketch",
     "date": "2023-07-30 00:00:00 +1000",
     "content": "EThis post dives into automating end to end artifact collection and processing using Velociraptor and Timesketch all deployed using CloudFormation in AWS."
   },
   {
     "title": "Certificate Transparency Logs",
     "url": "/posts/certlogs/",
-    "categories": "",
-    "tags": "",
+    "categories": "Threat&nbspHunting",
+    "tags": "Threat&nbspHunting",
     "date": "2023-07-30 00:00:00 +1000",
     "content": "Exploring Certificate Transparency Logs, deployment of elastic stack and showcasing how they can be leveraged for some interesting use cases."
   },
   {
     "title": "Velociraptor - Hunting for MOVEit IOCs",
     "url": "/posts/vr-moveit/",
-    "categories": "",
-    "tags": "",
+    "categories": "Threat&nbspHunting",
+    "tags": "Threat&nbspHunting, Velociraptor",
     "date": "2023-06-02 00:00:00 +1000",
     "content": "Showcasing Velociraptors capabilities as we hunt for MOVEit Indicators of Compromise off the back of CVE-2023-34362"
   },
@@ -27,15 +27,15 @@
     "title": "Velociraptor - Platform Setup",
     "url": "/posts/vr-platform-setup/",
     "categories": "",
-    "tags": "",
+    "tags": "Velociraptor",
     "date": "2023-05-23 00:00:00 +1000",
     "content": "Part 1 - An intro to Velociraptor - Setup and client deployment"
   },
   {
     "title": "TeamSpy - MemProcFS",
     "url": "/posts/teamspy-memprocfs/",
-    "categories": "",
-    "tags": "",
+    "categories": "DFIR",
+    "tags": "DFIR",
     "date": "2023-05-11 00:00:00 +1000",
     "content": "Exploration of memory analysis with MemProcFS. This post dives into an interesting CyberDefenders challenge, hunting for malicious processes, code executions, files and more."
   }

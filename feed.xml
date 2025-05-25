@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>BIZARRE BINARIES</title>
   <subtitle>Cyber security focused blog presenting content on digital forensics and incident response, threat hunting, reverse engineering and more.</subtitle>
-  <updated>2025-05-24T21:06:51+10:00</updated>
+  <updated>2025-05-25T21:05:46+10:00</updated>
   <author>
     <name>Bizarre Binaries</name>
     <uri>http://localhost:4000/</uri>
@@ -34,6 +34,8 @@
 
   
     
+    <category term="DFIR" />
+    
   
 
   <summary>EThis post dives into automating end to end artifact collection and processing using Velociraptor and Timesketch all deployed using CloudFormation in AWS.</summary>
@@ -56,6 +58,8 @@
 
   
     
+    <category term="Threat&amp;nbspHunting" />
+    
   
 
   <summary>Exploring Certificate Transparency Logs, deployment of elastic stack and showcasing how they can be leveraged for some interesting use cases.</summary>
@@ -77,6 +81,8 @@
     </author>
 
   
+    
+    <category term="Threat&amp;nbspHunting" />
     
   
 
@@ -121,6 +127,8 @@
     </author>
 
   
+    
+    <category term="DFIR" />
     
   
 
