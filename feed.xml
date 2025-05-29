@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>BIZARRE BINARIES</title>
   <subtitle>Cyber security focused blog presenting content on digital forensics and incident response, threat hunting, reverse engineering and more.</subtitle>
-  <updated>2025-05-25T21:14:12+10:00</updated>
+  <updated>2025-05-29T23:15:39+10:00</updated>
   <author>
     <name>Bizarre Binaries</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Back To Basics - LOLBins</title>
+    <link href="http://localhost:4000/posts/lolbins/" rel="alternate" type="text/html" title="Back To Basics - LOLBins" />
+    <published>2025-05-27T00:00:00+10:00</published>
+  
+    <updated>2025-05-27T00:00:00+10:00</updated>
+  
+    <id>http://localhost:4000/posts/lolbins/</id>
+    <content type="text/html" src="http://localhost:4000/posts/lolbins/" />
+    <author>
+      <name>bb</name>
+    </author>
+
+  
+    
+    <category term="CyberSecurity" />
+    
+  
+
+  <summary>A knowledge refresher - Exploration of cyber security topics.</summary>
+
+  </entry>
 
   
   <entry>
@@ -109,30 +133,6 @@
   
 
   <summary>Part 1 - An intro to Velociraptor - Setup and client deployment</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>TeamSpy - MemProcFS</title>
-    <link href="http://localhost:4000/posts/teamspy-memprocfs/" rel="alternate" type="text/html" title="TeamSpy - MemProcFS" />
-    <published>2023-05-11T00:00:00+10:00</published>
-  
-    <updated>2023-05-11T00:00:00+10:00</updated>
-  
-    <id>http://localhost:4000/posts/teamspy-memprocfs/</id>
-    <content type="text/html" src="http://localhost:4000/posts/teamspy-memprocfs/" />
-    <author>
-      <name>bb</name>
-    </author>
-
-  
-    
-    <category term="DFIR" />
-    
-  
-
-  <summary>Exploration of memory analysis with MemProcFS. This post dives into an interesting CyberDefenders challenge, hunting for malicious processes, code executions, files and more.</summary>
 
   </entry>
 

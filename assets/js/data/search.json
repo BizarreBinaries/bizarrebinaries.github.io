@@ -1,5 +1,13 @@
 [
   {
+    "title": "Back To Basics - LOLBins",
+    "url": "/posts/lolbins/",
+    "categories": "CyberSecurity",
+    "tags": "LOLBins, CyberSecurity",
+    "date": "2025-05-27 00:00:00 +1000",
+    "content": "A knowledge refresher - Exploration of cyber security topics."
+  },
+  {
     "title": "DFIR - Automating End to End Acquisition and Processing",
     "url": "/posts/dfirpipeline/",
     "categories": "DFIR",
