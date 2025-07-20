@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>BIZARRE BINARIES</title>
   <subtitle>Cyber security focused blog presenting content on digital forensics and incident response, threat hunting, reverse engineering and more.</subtitle>
-  <updated>2025-07-20T19:39:30+10:00</updated>
+  <updated>2025-07-20T19:56:28+10:00</updated>
   <author>
     <name>Bizarre Binaries</name>
     <uri>http://localhost:4000/</uri>
@@ -92,8 +92,8 @@
 
   
   <entry>
-    <title>DFIR - Automating End to End Acquisition and Processing</title>
-    <link href="http://localhost:4000/posts/dfirpipeline/" rel="alternate" type="text/html" title="DFIR - Automating End to End Acquisition and Processing" />
+    <title>Engineering - Automating End to End Acquisition and Processing</title>
+    <link href="http://localhost:4000/posts/dfirpipeline/" rel="alternate" type="text/html" title="Engineering - Automating End to End Acquisition and Processing" />
     <published>2023-12-03T00:00:00+10:00</published>
   
     <updated>2023-12-03T00:00:00+10:00</updated>
@@ -116,8 +116,8 @@
 
   
   <entry>
-    <title>Certificate Transparency Logs</title>
-    <link href="http://localhost:4000/posts/certlogs/" rel="alternate" type="text/html" title="Certificate Transparency Logs" />
+    <title>Engineering - Certificate Transparency Logs</title>
+    <link href="http://localhost:4000/posts/certlogs/" rel="alternate" type="text/html" title="Engineering - Certificate Transparency Logs" />
     <published>2023-07-30T00:00:00+10:00</published>
   
     <updated>2023-07-30T00:00:00+10:00</updated>

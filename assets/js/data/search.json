@@ -24,7 +24,7 @@
     "content": "A knowledge refresher - Exploration of cyber security topics."
   },
   {
-    "title": "DFIR - Automating End to End Acquisition and Processing",
+    "title": "Engineering - Automating End to End Acquisition and Processing",
     "url": "/posts/dfirpipeline/",
     "categories": "DFIR",
     "tags": "DFIR, Velociraptor, TimeSketch",
@@ -32,7 +32,7 @@
     "content": "EThis post dives into automating end to end artifact collection and processing using Velociraptor and Timesketch all deployed using CloudFormation in AWS."
   },
   {
-    "title": "Certificate Transparency Logs",
+    "title": "Engineering - Certificate Transparency Logs",
     "url": "/posts/certlogs/",
     "categories": "Threat&nbspHunting",
     "tags": "Threat&nbspHunting",
@@ -40,7 +40,7 @@
     "content": "Exploring Certificate Transparency Logs, deployment of elastic stack and showcasing how they can be leveraged for some interesting use cases."
   },
   {
-    "title": "Velociraptor - Hunting for MOVEit IOCs",
+    "title": "Research - Velociraptor - Hunting for MOVEit IOCs",
     "url": "/posts/vr-moveit/",
     "categories": "Threat&nbspHunting",
     "tags": "Threat&nbspHunting, Velociraptor",
@@ -48,7 +48,7 @@
     "content": "Showcasing Velociraptors capabilities as we hunt for MOVEit Indicators of Compromise off the back of CVE-2023-34362"
   },
   {
-    "title": "Velociraptor - Platform Setup",
+    "title": "Engineering - Velociraptor - Platform Setup",
     "url": "/posts/vr-platform-setup/",
     "categories": "",
     "tags": "Velociraptor",
@@ -56,7 +56,7 @@
     "content": "Part 1 - An intro to Velociraptor - Setup and client deployment"
   },
   {
-    "title": "TeamSpy - MemProcFS",
+    "title": "Lab Write Up - TeamSpy - MemProcFS",
     "url": "/posts/teamspy-memprocfs/",
     "categories": "DFIR",
     "tags": "DFIR",
