@@ -1,5 +1,21 @@
 [
   {
+    "title": "Research - OAuth Abuse - COMMING SOON",
+    "url": "/posts/research-oauth-abuse/",
+    "categories": "Research",
+    "tags": "DFIR, CyberSecurity, Cloud",
+    "date": "2025-07-20 00:00:00 +1000",
+    "content": "Microsoft Azure OAuth and how attackers abuse it. Coming Soon."
+  },
+  {
+    "title": "Lab Write Up - Xintra - KG Distribution",
+    "url": "/posts/xintra-kgdistribution/",
+    "categories": "Lab",
+    "tags": "WriteUp",
+    "date": "2025-07-20 00:00:00 +1000",
+    "content": "Exploration of memory analysis with MemProcFS. This post dives into an interesting Xintra lab hallenge, hunting for malicious processes, persistence mechanisms, data staging and more."
+  },
+  {
     "title": "Back To Basics - LOLBins",
     "url": "/posts/lolbins/",
     "categories": "CyberSecurity",

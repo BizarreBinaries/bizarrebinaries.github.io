@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>BIZARRE BINARIES</title>
   <subtitle>Cyber security focused blog presenting content on digital forensics and incident response, threat hunting, reverse engineering and more.</subtitle>
-  <updated>2025-06-24T13:44:14+10:00</updated>
+  <updated>2025-07-20T19:39:30+10:00</updated>
   <author>
     <name>Bizarre Binaries</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,54 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Research - OAuth Abuse - COMMING SOON</title>
+    <link href="http://localhost:4000/posts/research-oauth-abuse/" rel="alternate" type="text/html" title="Research - OAuth Abuse - COMMING SOON" />
+    <published>2025-07-20T00:00:00+10:00</published>
+  
+    <updated>2025-07-20T00:00:00+10:00</updated>
+  
+    <id>http://localhost:4000/posts/research-oauth-abuse/</id>
+    <content type="text/html" src="http://localhost:4000/posts/research-oauth-abuse/" />
+    <author>
+      <name>bb</name>
+    </author>
+
+  
+    
+    <category term="Research" />
+    
+  
+
+  <summary>Microsoft Azure OAuth and how attackers abuse it. Coming Soon.</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>Lab Write Up - Xintra - KG Distribution</title>
+    <link href="http://localhost:4000/posts/xintra-kgdistribution/" rel="alternate" type="text/html" title="Lab Write Up - Xintra - KG Distribution" />
+    <published>2025-07-20T00:00:00+10:00</published>
+  
+    <updated>2025-07-20T00:00:00+10:00</updated>
+  
+    <id>http://localhost:4000/posts/xintra-kgdistribution/</id>
+    <content type="text/html" src="http://localhost:4000/posts/xintra-kgdistribution/" />
+    <author>
+      <name>bb</name>
+    </author>
+
+  
+    
+    <category term="Lab" />
+    
+  
+
+  <summary>Exploration of memory analysis with MemProcFS. This post dives into an interesting Xintra lab hallenge, hunting for malicious processes, persistence mechanisms, data staging and more.</summary>
+
+  </entry>
 
   
   <entry>
@@ -87,52 +135,6 @@
   
 
   <summary>Exploring Certificate Transparency Logs, deployment of elastic stack and showcasing how they can be leveraged for some interesting use cases.</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>Velociraptor - Hunting for MOVEit IOCs</title>
-    <link href="http://localhost:4000/posts/vr-moveit/" rel="alternate" type="text/html" title="Velociraptor - Hunting for MOVEit IOCs" />
-    <published>2023-06-02T00:00:00+10:00</published>
-  
-    <updated>2023-06-02T00:00:00+10:00</updated>
-  
-    <id>http://localhost:4000/posts/vr-moveit/</id>
-    <content type="text/html" src="http://localhost:4000/posts/vr-moveit/" />
-    <author>
-      <name>bb</name>
-    </author>
-
-  
-    
-    <category term="Threat&amp;nbspHunting" />
-    
-  
-
-  <summary>Showcasing Velociraptors capabilities as we hunt for MOVEit Indicators of Compromise off the back of CVE-2023-34362</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>Velociraptor - Platform Setup</title>
-    <link href="http://localhost:4000/posts/vr-platform-setup/" rel="alternate" type="text/html" title="Velociraptor - Platform Setup" />
-    <published>2023-05-23T00:00:00+10:00</published>
-  
-    <updated>2023-05-23T00:00:00+10:00</updated>
-  
-    <id>http://localhost:4000/posts/vr-platform-setup/</id>
-    <content type="text/html" src="http://localhost:4000/posts/vr-platform-setup/" />
-    <author>
-      <name>bb</name>
-    </author>
-
-  
-    
-  
-
-  <summary>Part 1 - An intro to Velociraptor - Setup and client deployment</summary>
 
   </entry>
 
