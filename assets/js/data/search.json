@@ -1,11 +1,11 @@
 [
   {
-    "title": "Research - OAuth Abuse - COMMING SOON",
-    "url": "/posts/research-oauth-abuse/",
+    "title": "Engineering - Automating Triage with n8n - COMMING SOON",
+    "url": "/posts/automating-triage-with-n8n/",
     "categories": "Research",
-    "tags": "DFIR, CyberSecurity, Cloud",
+    "tags": "DFIR, CyberSecurity",
     "date": "2025-07-20 00:00:00 +1000",
-    "content": "Microsoft Azure OAuth and how attackers abuse it. Coming Soon."
+    "content": "Exploration of how we can hook n8n into elastic to auto parse logs, extract fields and leverage auxiliary tools to determine malicious intent."
   },
   {
     "title": "Lab Write Up - Xintra - KG Distribution",

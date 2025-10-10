@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>BIZARRE BINARIES</title>
   <subtitle>Cyber security focused blog presenting content on digital forensics and incident response, threat hunting, reverse engineering and more.</subtitle>
-  <updated>2025-08-04T13:41:14+10:00</updated>
+  <updated>2025-10-10T13:47:54+10:00</updated>
   <author>
     <name>Bizarre Binaries</name>
     <uri>http://localhost:4000/</uri>
@@ -20,14 +20,14 @@
 
   
   <entry>
-    <title>Research - OAuth Abuse - COMMING SOON</title>
-    <link href="http://localhost:4000/posts/research-oauth-abuse/" rel="alternate" type="text/html" title="Research - OAuth Abuse - COMMING SOON" />
+    <title>Engineering - Automating Triage with n8n - COMMING SOON</title>
+    <link href="http://localhost:4000/posts/automating-triage-with-n8n/" rel="alternate" type="text/html" title="Engineering - Automating Triage with n8n - COMMING SOON" />
     <published>2025-07-20T00:00:00+10:00</published>
   
     <updated>2025-07-20T00:00:00+10:00</updated>
   
-    <id>http://localhost:4000/posts/research-oauth-abuse/</id>
-    <content type="text/html" src="http://localhost:4000/posts/research-oauth-abuse/" />
+    <id>http://localhost:4000/posts/automating-triage-with-n8n/</id>
+    <content type="text/html" src="http://localhost:4000/posts/automating-triage-with-n8n/" />
     <author>
       <name>bb</name>
     </author>
@@ -38,7 +38,7 @@
     
   
 
-  <summary>Microsoft Azure OAuth and how attackers abuse it. Coming Soon.</summary>
+  <summary>Exploration of how we can hook n8n into elastic to auto parse logs, extract fields and leverage auxiliary tools to determine malicious intent.</summary>
 
   </entry>
 
